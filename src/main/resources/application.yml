@@ -7,6 +7,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/pabllo007/config-repo-atendeia
+          uri: https://github.com/pabllo007/atendeia-config-server
           default-label: master
           clone-on-start: true
