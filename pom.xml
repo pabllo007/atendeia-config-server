@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.atendeia</groupId>
-	<artifactId>config-server-atendeia</artifactId>
+	<artifactId>atendeia-config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>config-server-atendeia</name>
+	<name>atendeia-config-server</name>
 	<description>Spring Cloud Config Server para centralizar e distribuir as configurações dos microsserviços do AtendeIA.</description>
 	<url/>
 	<licenses>

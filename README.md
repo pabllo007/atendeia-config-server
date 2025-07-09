@@ -26,7 +26,7 @@ server:
 
 spring:
   application:
-    name: config-server-atendeia
+    name: atendeia-config-server
 
   cloud:
     config:
@@ -87,8 +87,8 @@ http://localhost:8888/discovery-server-atendeia/default
 
 ## 📁 Estrutura de repositórios
 
-- Este projeto: `config-server-atendeia`
-- Configurações centralizadas: `config-repo-atendeia`
+- Este projeto: `atendeia-config-server`
+- Configurações centralizadas: `atendeia-config-server`
 - Outros microsserviços: estarão no repositório `AtendeIA` em subpastas
 
 ---
