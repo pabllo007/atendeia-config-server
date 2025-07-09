@@ -1,0 +1,22 @@
+spring:
+  config:
+    activate:
+      on-profile: hom
+
+  datasource:
+    url: jdbc:postgresql://host-do-banco-hom:5432/atendeia_user
+    username: user_hom
+    password: senha_hom
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://discovery-server:8761/eureka/
