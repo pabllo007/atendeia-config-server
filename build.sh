@@ -11,10 +11,11 @@ docker build -t $IMAGE_NAME:$VERSION -t $IMAGE_NAME:latest .
 # Remove container antigo (se existir)
 docker rm -f config-server 2>/dev/null
 
-# Sobe o container
 docker run -d -p 8888:8888 \
   --name config-server \
+  -e "SPRING_PROFILES_ACTIVE=git" \
   $IMAGE_NAME:$VERSION
+
 
 # Detecta IP local
 HOST_IP=$(hostname -I | awk '{print $1}')
