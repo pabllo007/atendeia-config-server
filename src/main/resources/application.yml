@@ -12,6 +12,7 @@ spring:
           uri: https://github.com/pabllo007/atendeia-config-server
           default-label: master
           clone-on-start: true
+          search-paths: src/main/resources
 
 logging:
   level:
