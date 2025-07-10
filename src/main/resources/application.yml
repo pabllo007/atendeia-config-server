@@ -9,10 +9,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/pabllo007/atendeia-config-server
+          uri: https://github.com/pabllo007/atendeia-config-repo
           default-label: master
           clone-on-start: true
-          search-paths: src/main/resources
+          search-paths: .
 
 logging:
   level:
