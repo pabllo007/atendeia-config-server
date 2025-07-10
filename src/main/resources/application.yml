@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: atendeia-config-server
+  profiles:
+    active: git
   cloud:
     config:
       server:
@@ -10,3 +12,8 @@ spring:
           uri: https://github.com/pabllo007/atendeia-config-server
           default-label: master
           clone-on-start: true
+
+logging:
+  level:
+    root: INFO
+    org.springframework.cloud.config: DEBUG
